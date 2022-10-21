@@ -1,0 +1,6 @@
+.numOffersLink {
+    color: inherit;
+}
+.numOffersLink:hover {
+    color: blue;
+}
