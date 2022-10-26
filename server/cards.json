@@ -1,0 +1,1962 @@
+{
+    "14-126-512": {
+        "domId": "item_cell_14-126-512_1_0",
+        "id": "14-126-512",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "194"
+        },
+        "brand": {
+            "name": "ASUS",
+            "id": "Brand1315"
+        },
+        "name": "ASUS TUF Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card TUF-RTX3070TI-O8G-GAMING",
+        "price": {
+            "currency": "$",
+            "was": "689.99",
+            "is": "659.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-126-512-02",
+                "14-126-512-V27",
+                "14-126-512-V90",
+                "14-126-512-V35",
+                "14-126-512-V31",
+                "14-126-512-V34",
+                "14-126-512-V26",
+                "14-126-512-V81",
+                "14-126-512-V36",
+                "14-126-512-V33",
+                "14-126-512-V32",
+                "14-126-512-V30",
+                "14-126-512-V29",
+                "14-126-512-V28"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6X",
+                "OC mode: 1815MHz (Boost Clock)",
+                "Gaming mode: 1785 MHz (Boost Clock)",
+                "2 x HDMI 3 x DisplayPort 1.4a",
+                "6144 CUDA Cores",
+                "PCI Express 4.0 x16"
+            ]
+        }
+    },
+    "14-932-496": {
+        "domId": "item_cell_14-932-496_2_0",
+        "id": "14-932-496",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "85"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE GeForce RTX 3050 GAMING OC 8G Graphics Card, 3x WINDFORCE Fans, 8GB GDDR6 128-bit GDDR6, GV-N3050GAMING OC-8GD Video Card",
+        "price": {
+            "currency": "$",
+            "is": "319.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-496-S01",
+                "14-932-496-V06",
+                "14-932-496-V10",
+                "14-932-496-V03",
+                "14-932-496-V05",
+                "14-932-496-V09",
+                "14-932-496-V02",
+                "14-932-496-V04",
+                "14-932-496-V08",
+                "14-932-496-V07",
+                "14-932-496-V01"
+            ],
+            "features": [
+                "NVIDIA Ampere Streaming Multiprocessors",
+                "2nd Generation RT Cores",
+                "3rd Generation Tensor Cores",
+                "Powered by GeForce RTX 3050",
+                "Integrated with 8GB GDDR6 128-bit memory interface",
+                "WINDFORCE 3X Cooling System with alternate spinning fans",
+                "RGB Fusion 2.0",
+                "Protective back plate",
+                "2x HDMI 2.1, 2x Display Port 1.4a"
+            ]
+        }
+    },
+    "14-932-491": {
+        "domId": "item_cell_14-932-491_3_0",
+        "id": "14-932-491",
+        "rating": {
+            "value": "4.4",
+            "numRatings": "27"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE GAMING OC Radeon RX 6500 XT 4GB GDDR6 PCI Express 4.0 ATX Video Card GV-R65XTGAMING OC-4GD",
+        "price": {
+            "currency": "$",
+            "is": "169.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-491-01",
+                "14-932-491-V04",
+                "14-932-491-V10",
+                "14-932-491-V06",
+                "14-932-491-V03",
+                "14-932-491-V02",
+                "14-932-491-V09",
+                "14-932-491-V07",
+                "14-932-491-V08",
+                "14-932-491-V05",
+                "14-932-491-V01"
+            ],
+            "features": [
+                "4GB 64-Bit GDDR6",
+                "Boost Clock 2825 MHz",
+                "1 x HDMI 2.1 1 x DisplayPort 1.4a",
+                "1024 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-930-057": {
+        "domId": "item_cell_14-930-057_4_0",
+        "id": "14-930-057",
+        "rating": {
+            "value": "4.3",
+            "numRatings": "75"
+        },
+        "brand": {
+            "name": "ASRock",
+            "id": "Brand1944"
+        },
+        "name": "ASRock OC Formula Radeon RX 6900 XT 16GB GDDR6 PCI Express 4.0 ATX Video Card RX6900XT OCF 16G",
+        "price": {
+            "currency": "$",
+            "was": "799.99",
+            "is": "719.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-930-057-06",
+                "14-930-057-V01",
+                "14-930-057-V80",
+                "14-930-057-V05",
+                "14-930-057-V81",
+                "14-930-057-V02",
+                "14-930-057-V03",
+                "14-930-057-V04"
+            ],
+            "features": [
+                "16GB Memory 256-Bit GDDR6",
+                "Max Reoslution of 7680 x 4320",
+                "Core Clock 2125 MHz",
+                "Boost Clock 2475 MHz",
+                "1 x HDMI 2.1 VRR 3 x DisplayPort 1.4 with DSC",
+                "5120 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-932-416": {
+        "domId": "item_cell_9SIAPX0J9J3327_5_0",
+        "id": "14-932-416",
+        "rating": {
+            "value": "4.5",
+            "numRatings": "52"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Radeon RX 6700 XT GAMING OC 12G Graphics Card, WINDFORCE 3X Cooling System, 12GB 192-bit GDDR6, GV-R67XTGAMING OC-12GD Video Card",
+        "price": {
+            "currency": "$",
+            "is": "493.74"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": [
+                "14-932-416-03",
+                "14-932-416-04",
+                "14-932-416-V07",
+                "14-932-416-V03",
+                "14-932-416-V09",
+                "14-932-416-V08",
+                "14-932-416-V11",
+                "14-932-416-V06",
+                "14-932-416-V02",
+                "14-932-416-V05",
+                "14-932-416-V04",
+                "14-932-416-V10"
+            ],
+            "features": [
+                "Powered by AMD RDNA 2 Radeon RX 6700 XT",
+                "Integrated with 12GB GDDR6 192-bit memory interface",
+                "WINDFORCE 3X Cooling System with alternate spinning fans",
+                "Screen cooling",
+                "2 x DisplayPort 1.4a",
+                "2 x HDMI 2.1",
+                "Graphene nano lubricant",
+                "RGB Fusion 2.0",
+                "Protection metal back plate"
+            ]
+        }
+    },
+    "14-932-520": {
+        "domId": "item_cell_14-932-520_6_0",
+        "id": "14-932-520",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "14"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Gaming OC Radeon RX 6650 XT 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-R665XTGAMING OC-8GD",
+        "price": {
+            "currency": "$",
+            "was": "319.99",
+            "is": "284.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-520-09",
+                "14-932-520-08",
+                "14-932-520-01",
+                "14-932-520-06",
+                "14-932-520-04",
+                "14-932-520-05",
+                "14-932-520-10",
+                "14-932-520-07",
+                "14-932-520-03",
+                "14-932-520-02"
+            ],
+            "features": [
+                "8GB 128-Bit GDDR6",
+                "Boost Clock 2694 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "2048 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-932-459": {
+        "domId": "item_cell_14-932-459_7_0",
+        "id": "14-932-459",
+        "rating": {
+            "value": "4.5",
+            "numRatings": "74"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Gaming OC GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card GV-N3080GAMING OC-10GD (rev. 2.0) (LHR)",
+        "price": {
+            "currency": "$",
+            "is": "759.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-459-02",
+                "14-932-459-V11",
+                "14-932-459-V15",
+                "14-932-459-V09",
+                "14-932-459-V07",
+                "14-932-459-V10",
+                "14-932-459-V16",
+                "14-932-459-V14",
+                "14-932-459-V08",
+                "14-932-459-V12",
+                "14-932-459-V13"
+            ],
+            "features": [
+                "10GB 320-Bit GDDR6X",
+                "Core Clock 1800 MHz",
+                "2 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "8704 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-137-712": {
+        "domId": "item_cell_14-137-712_8_0",
+        "id": "14-137-712",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "140"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Ventus GeForce RTX 3080 12GB GDDR6X PCI Express 4.0 Video Card RTX 3080 VENTUS 3X PLUS 12G OC LHR",
+        "price": {
+            "currency": "$",
+            "is": "789.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-712-S07",
+                "14-137-712-S80",
+                "14-137-712-S02",
+                "14-137-712-S04",
+                "14-137-712-S03",
+                "14-137-712-S06",
+                "14-137-712-S05",
+                "14-137-712-S81"
+            ],
+            "features": [
+                "12GB 384-Bit GDDR6X",
+                "Boost Clock 1740 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "8960 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-137-711": {
+        "domId": "item_cell_14-137-711_9_0",
+        "id": "14-137-711",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "91"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Gaming GeForce RTX 3080 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 GAMING Z TRIO 12G LHR",
+        "price": {
+            "currency": "$",
+            "is": "809.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-711-01",
+                "14-137-711-V01",
+                "14-137-711-V80",
+                "14-137-711-V07",
+                "14-137-711-V08",
+                "14-137-711-V11",
+                "14-137-711-V81",
+                "14-137-711-V06",
+                "14-137-711-V09",
+                "14-137-711-V12",
+                "14-137-711-V05",
+                "14-137-711-V04",
+                "14-137-711-V10",
+                "14-137-711-V03",
+                "14-137-711-V02"
+            ],
+            "features": [
+                "12GB 384-Bit GDDR6X",
+                "Boost Clock 1815 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "8960 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-487-544": {
+        "domId": "item_cell_14-487-544_10_0",
+        "id": "14-487-544",
+        "rating": {
+            "value": "4.9",
+            "numRatings": "48"
+        },
+        "brand": {
+            "name": "EVGA",
+            "id": "Brand1402"
+        },
+        "name": "EVGA GeForce RTX 3070 FTW3 ULTRA GAMING Video Card, 08G-P5-3767-KL, 8GB GDDR6, iCX3 Technology, ARGB LED, Metal Backplate, LHR",
+        "price": {
+            "currency": "$",
+            "is": "719.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-487-544-V04",
+                "14-487-544-V80",
+                "14-487-544-V06",
+                "14-487-544-V07",
+                "14-487-544-V81",
+                "14-487-544-V09",
+                "14-487-544-V08",
+                "14-487-544-V10",
+                "14-487-544-V02",
+                "14-487-544-V03",
+                "14-487-544-V05",
+                "14-487-544-V01"
+            ],
+            "features": [
+                "Real Boost Clock: 1815 MHz; Memory Detail: 8192MB GDDR6X.",
+                "Real-Time RAY TRACING in games for cutting-edge, hyper-realistic graphics.",
+                "Triple Fans + 9 iCX3 thermal sensors offer higher performance cooling and much quieter acoustic noise.",
+                "All-Metal Backplate & Adjustable ARGB."
+            ]
+        }
+    },
+    "14-932-498": {
+        "domId": "item_cell_14-932-498_11_0",
+        "id": "14-932-498",
+        "rating": {
+            "value": "4.9",
+            "numRatings": "19"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE GeForce RTX 3050 EAGLE OC 8G Graphics Card, 2x WINDFORCE Fans, 8GB GDDR6 128-bit GDDR6, GV-N3050EAGLE OC-8GD Video Card",
+        "price": {
+            "currency": "$",
+            "is": "299.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-498-01",
+                "14-932-498-V06",
+                "14-932-498-V10",
+                "14-932-498-V03",
+                "14-932-498-V05",
+                "14-932-498-V09",
+                "14-932-498-V02",
+                "14-932-498-V04",
+                "14-932-498-V07",
+                "14-932-498-V01",
+                "14-932-498-V08"
+            ],
+            "features": [
+                "NVIDIA Ampere Streaming Multiprocessors",
+                "2nd Generation RT Cores",
+                "3rd Generation Tensor Cores",
+                "Powered by GeForce RTX 3050",
+                "Integrated with 8GB GDDR6 128-bit memory interface",
+                "WINDFORCE 2X Cooling System with alternate spinning fans",
+                "90mm unique blade fans",
+                "Protective back plate",
+                "2x HDMI 2.1, 2x Display Port 1.4a"
+            ]
+        }
+    },
+    "14-137-670": {
+        "domId": "item_cell_14-137-670_12_0",
+        "id": "14-137-670",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "63"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Gaming GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card 3070 GAMING Z TRIO 8G LHR",
+        "price": {
+            "currency": "$",
+            "is": "584.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-670-V05",
+                "14-137-670-V02",
+                "14-137-670-V08",
+                "14-137-670-V80",
+                "14-137-670-V09",
+                "14-137-670-V07",
+                "14-137-670-V04",
+                "14-137-670-V10",
+                "14-137-670-V06",
+                "14-137-670-V03",
+                "14-137-670-V11",
+                "14-137-670-V01",
+                "14-137-670-V81"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Boost Clock 1845 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4",
+                "5888 CUDA Cores",
+                "PCI Express 4.0 x16",
+                "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (estimate)."
+            ]
+        }
+    },
+    "14-137-632": {
+        "domId": "item_cell_14-137-632_13_0",
+        "id": "14-137-632",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "168"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC",
+        "price": {
+            "currency": "$",
+            "is": "379.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-632-V05",
+                "14-137-632-01",
+                "14-137-632-V03",
+                "14-137-632-02",
+                "14-137-632-V09",
+                "14-137-632-V08",
+                "14-137-632-V07",
+                "14-137-632-V01",
+                "14-137-632-V06",
+                "14-137-632-V02",
+                "14-137-632-V04"
+            ],
+            "features": [
+                "12GB 192-Bit GDDR6",
+                "Boost Clock 1807 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "3584 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "AZUES220425vpbt": {
+        "domId": "item_cell_9SIAZUEHMN7535_14_0",
+        "id": "AZUES220425vpbt",
+        "rating": {
+            "value": "4.4",
+            "numRatings": "21"
+        },
+        "brand": {
+            "name": "yeston",
+            "id": "Brand203181"
+        },
+        "name": "Yeston RTX 3080 10GB GDDR6X 320bit LHR Graphics cards Nvidia pci express x16 4.0 HDMI 2.1*1 + DP1.4a*3 video cards Desktop computer PC video gaming graphics card",
+        "price": {
+            "currency": "$",
+            "was": "1,099.00",
+            "is": "769.00"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": ["AZUES220425vpbtX"],
+            "features": [
+                "This version is LHR version(LHR:Lite Hash Rate)Not recommended for mining",
+                "Unified shaders: 8704",
+                "Core frequency: 1440/1710MHz",
+                "Memory capacity and specification: 10G/320bit/GDDR6X",
+                "3D features: DirectX12/Ansel/Highlights/G-Sync/VulkanApi/OpenGL4.6/8K/DLSS",
+                "OS features: windows7/8/8.1/10(only 64bit)",
+                "Bus interface: PCI Express 4.0 x 16",
+                "Output interface: DP*3+HDMI compatible*1",
+                "External power supply: 8 Pin * 2",
+                "Recommended power supply: rated more than 800W",
+                "Size / weight of graphics card: 301*132*49mm"
+            ]
+        }
+    },
+    "14-137-630": {
+        "domId": "item_cell_14-137-630_15_0",
+        "id": "14-137-630",
+        "rating": {
+            "value": "4.9",
+            "numRatings": "112"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Gaming GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Gaming X 12G",
+        "price": {
+            "currency": "$",
+            "was": "409.99",
+            "is": "389.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-630-V05",
+                "14-137-630-01",
+                "14-137-630-V03",
+                "14-137-630-02",
+                "14-137-630-V09",
+                "14-137-630-V08",
+                "14-137-630-V07",
+                "14-137-630-V01",
+                "14-137-630-V06",
+                "14-137-630-V04",
+                "14-137-630-V02"
+            ],
+            "features": [
+                "12GB 192-Bit GDDR6",
+                "Boost Clock 1837 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "3584 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-930-052": {
+        "domId": "item_cell_14-930-052_16_0",
+        "id": "14-930-052",
+        "rating": {
+            "value": "4.4",
+            "numRatings": "94"
+        },
+        "brand": {
+            "name": "ASRock",
+            "id": "Brand1944"
+        },
+        "name": "ASRock Radeon RX 6900 XT PHANTOM GAMING D Graphics Card 16GB GDDR6, AMD RDNA2 (RX6900XT PGD 16GO)",
+        "price": {
+            "currency": "$",
+            "was": "699.99",
+            "is": "669.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-930-052-01",
+                "14-930-052-V80",
+                "14-930-052-V04",
+                "14-930-052-V81",
+                "14-930-052-V03",
+                "14-930-052-V01"
+            ],
+            "features": [
+                "16GB 256-Bit GDDR6",
+                "Core Clock 1925 MHz",
+                "Boost Clock 2340 MHz",
+                "1 x HDMI 2.1 VRR 3 x DisplayPort 1.4 with DSC",
+                "5120 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-932-449": {
+        "domId": "item_cell_14-932-449_17_0",
+        "id": "14-932-449",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "110"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Gaming OC GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N3070GAMING OC-8GD (rev. 2.0) (LHR)",
+        "price": {
+            "currency": "$",
+            "was": "579.99",
+            "is": "549.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-449-01",
+                "14-932-449-V06",
+                "14-932-449-V09",
+                "14-932-449-V03",
+                "14-932-449-V04",
+                "14-932-449-V05",
+                "14-932-449-V02",
+                "14-932-449-V10",
+                "14-932-449-V07",
+                "14-932-449-V01",
+                "14-932-449-V08"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Core Clock 1815 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "5888 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-126-541": {
+        "domId": "item_cell_14-126-541_18_0",
+        "id": "14-126-541",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "37"
+        },
+        "brand": {
+            "name": "ASUS",
+            "id": "Brand1315"
+        },
+        "name": "ASUS Dual Radeon RX 6600 8GB GDDR6 PCI Express 4.0 Video Card DUAL-RX6600-8G",
+        "price": {
+            "currency": "$",
+            "was": "299.99",
+            "is": "219.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-126-541-S01",
+                "14-126-541-S03",
+                "14-126-541-V80",
+                "14-126-541-V81",
+                "14-126-541-S02"
+            ],
+            "features": [
+                "8GB 128-Bit GDDR6",
+                "Boost Clock 2491 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "1792 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-487-448": {
+        "domId": "item_cell_14-487-448_19_0",
+        "id": "14-487-448",
+        "rating": {
+            "value": "4.5",
+            "numRatings": "75"
+        },
+        "brand": {
+            "name": "EVGA",
+            "id": "Brand1402"
+        },
+        "name": "EVGA GeForce GTX 1660 SC ULTRA GAMING, 06G-P4-1067-KR, 6GB GDDR5, Dual Fan, Metal Backplate",
+        "price": {
+            "currency": "$",
+            "is": "189.99"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": [
+                "14-487-448-V01",
+                "14-487-448-V07",
+                "14-487-448-V90",
+                "14-487-448-V80",
+                "14-487-448-V03",
+                "14-487-448-V04",
+                "14-487-448-V05",
+                "14-487-448-V06"
+            ],
+            "features": [
+                "Boost Clock: 1830 MHz",
+                "All-new NVIDIA Turing architecture to give you incredible new levels of gaming realism, speed, power efficiency and immersion",
+                "Dual Fans offer higher performance cooling and low acoustic noise",
+                "Built for EVGA Precision X1 - EVGA's all-new tuning utility monitors your graphics card and gives you the power to overclock like a pro!"
+            ]
+        }
+    },
+    "14-930-049": {
+        "domId": "item_cell_14-930-049_20_0",
+        "id": "14-930-049",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "54"
+        },
+        "brand": {
+            "name": "ASRock",
+            "id": "Brand1944"
+        },
+        "name": "ASRock Radeon RX 6800 XT Phantom Gaming D Gaming Graphics Card with 16GB GDDR6, AMD RDNA 2 (RX6800XT PGD 16GO)",
+        "price": {
+            "currency": "$",
+            "was": "639.99",
+            "is": "549.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-930-049-01",
+                "14-930-049-V07",
+                "14-930-049-V02",
+                "14-930-049-V80",
+                "14-930-049-V81",
+                "14-930-049-V10",
+                "14-930-049-V03",
+                "14-930-049-V05",
+                "14-930-049-V04",
+                "14-930-049-V01",
+                "14-930-049-V08",
+                "14-930-049-V06"
+            ],
+            "features": [
+                "16GB 256-Bit GDDR6",
+                "AMD RDNA 2",
+                "1 x HDMI 2.1 VRR 3 x DisplayPort 1.4 with DSC",
+                "4608 Stream Processors",
+                "PCI Express 4.0 x16"
+            ]
+        }
+    },
+    "14-126-555": {
+        "domId": "item_cell_14-126-555_21_0",
+        "id": "14-126-555",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "26"
+        },
+        "brand": {
+            "name": "ASUS",
+            "id": "Brand1315"
+        },
+        "name": "ASUS TUF Gaming GeForce RTX 3090 Ti 24GB GDDR6X PCI Express 4.0 SLI Support Video Card TUF-RTX3090TI-O24G-GAMING",
+        "price": {
+            "currency": "$",
+            "is": "1,449.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": ["14-126-555-01", "14-126-555-V01"],
+            "features": [
+                "NVIDIA Ampere Streaming Multiprocessors: The building blocks for the world's fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency.",
+                "2nd Generation RT Cores: Experience 2X the throughput of 1st gen RT Cores, plus concurrent RT and shading for a whole new level of ray tracing performance.",
+                "3rd Generation Tensor Cores: Get up to 2X the throughput with structural sparsity and advanced AI algorithms such as DLSS. Now with support for up to 8K resolution, these cores deliver a massive boost in game performance and all-new AI capabilities.",
+                "Axial-tech Fan Design has been newly tuned with a reversed central fan direction for less turbulence.",
+                "Dual Ball Fan Bearings can last up to twice as long as sleeve bearing designs.",
+                "Military-grade Capacitors and other TUF components enhance durability and performance.",
+                "GPU Tweak provides intuitive performance tweaking, thermal controls, and system monitoring."
+            ]
+        }
+    },
+    "14-930-056": {
+        "domId": "item_cell_14-930-056_22_0",
+        "id": "14-930-056",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "69"
+        },
+        "brand": {
+            "name": "ASRock",
+            "id": "Brand1944"
+        },
+        "name": "ASRock Radeon RX 6700 XT Challenger D Gaming Graphic Card, 12GB GDDR6 VRAM, AMD RDNA2 (RX6700XT CLD 12G)",
+        "price": {
+            "currency": "$",
+            "was": "439.99",
+            "is": "389.99"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": [
+                "14-930-056-01",
+                "14-930-056-V81",
+                "14-930-056-V08",
+                "14-930-056-V80",
+                "14-930-056-V07",
+                "14-930-056-V06",
+                "14-930-056-V09",
+                "14-930-056-V05",
+                "14-930-056-V10"
+            ],
+            "features": [
+                "12GB 192-Bit GDDR6",
+                "Core Clock 2321 MHz",
+                "Boost Clock 2581 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4",
+                "2560 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "AZUES210929t91W": {
+        "domId": "item_cell_9SIAZUEFY85385_23_0",
+        "id": "AZUES210929t91W",
+        "rating": {
+            "value": "4.5",
+            "numRatings": "8"
+        },
+        "brand": {
+            "name": "yeston",
+            "id": "Brand203181"
+        },
+        "name": "Yeston Radeon RX 6800 XT 16GB D6 GDDR6 256bit 7nm video cards Desktop computer PC Video Graphics Cards support PCI-Express 4.0 3*DP+1*HDMI-compatible RGB light effect Fragrant graphics card",
+        "price": {
+            "currency": "$",
+            "was": "729.00",
+            "is": "699.00"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": ["AZUES210929t91WJ"],
+            "features": [
+                "PS:This model does not have Type-C interface!",
+                "Core code and process: Navi 21 / 7nm",
+                "Unified shaders: 4608",
+                "Core frequency / Video frequency: 2065-2310MHz (core game / acceleration frequency) / 16GHz (video frequency)",
+                "Video memory capacity and specification: 16G/ 256bit /GDDR6",
+                "Infinity Cache: 128MB",
+                "3D features: full DirectX 12 / Ray tracing",
+                "OS feature: Win10 64",
+                "Radiator:3 Fans + ARGB synchronization",
+                "Other features: AMD liquidvr Technology, AMD freesync Technology 2 VR Ready",
+                "Bus interface: PCI Express 4.0",
+                "Output interface: DP (1.4 with DSC) * 3 + HDMI-compatible (2.1 VRR and FRL)",
+                "External power supply: 8 + 8 pin (Power supply above 750W)"
+            ]
+        }
+    },
+    "14-932-481": {
+        "domId": "item_cell_14-932-481_24_0",
+        "id": "14-932-481",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "69"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Radeon RX 6600 EAGLE 8G Graphics Card, WINDFORCE 3X Cooling System, 8GB 128-bit GDDR6, GV-R66EAGLE-8GD Video Card",
+        "price": {
+            "currency": "$",
+            "was": "289.99",
+            "is": "239.99"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": [
+                "14-932-481-11",
+                "14-932-481-V03",
+                "14-932-481-V01",
+                "14-932-481-V10",
+                "14-932-481-V09",
+                "14-932-481-V08",
+                "14-932-481-V02",
+                "14-932-481-V06",
+                "14-932-481-V07",
+                "14-932-481-V05",
+                "14-932-481-V04"
+            ],
+            "features": [
+                "Powered by AMD RDNA 2 Radeon RX 6600",
+                "Integrated with 8GB GDDR6 128-bit memory interface",
+                "WINDFORCE 3X Cooling System with alternate spinning fans",
+                "Screen Cooling",
+                "2 x DisplayPort",
+                "2 x HDMI",
+                "Graphene nano lubricant",
+                "Protection metal backplate"
+            ]
+        }
+    },
+    "14-932-433": {
+        "domId": "item_cell_14-932-433_25_0",
+        "id": "14-932-433",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "125"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Gaming OC GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 ATX Video Card GV-N3060GAMING OC-12GD (rev. 2.0) (LHR)",
+        "price": {
+            "currency": "$",
+            "was": "399.99",
+            "is": "392.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-433-01",
+                "14-932-433-V13",
+                "14-932-433-V19",
+                "14-932-433-V10",
+                "14-932-433-V15",
+                "14-932-433-V16",
+                "14-932-433-V18",
+                "14-932-433-V11",
+                "14-932-433-V12",
+                "14-932-433-V17",
+                "14-932-433-V14"
+            ],
+            "features": [
+                "12GB 192-Bit GDDR6",
+                "Core Clock 1837 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "3584 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-930-075": {
+        "domId": "item_cell_14-930-075_26_0",
+        "id": "14-930-075",
+        "rating": {
+            "value": "3.5",
+            "numRatings": "4"
+        },
+        "brand": {
+            "name": "ASRock",
+            "id": "Brand1944"
+        },
+        "name": "ASRock Phantom Gaming Elite Radeon RX 560 4GB GDDR5 PCI Express 3.0 Video Card RX 560 PGE 4G",
+        "price": {
+            "currency": "$",
+            "is": "99.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-930-075-01",
+                "14-930-075-05",
+                "14-930-075-02",
+                "14-930-075-03",
+                "14-930-075-04"
+            ],
+            "features": [
+                "4GB 128-Bit GDDR5",
+                "Core Clock 1199 MHz",
+                "1 x HDMI 2.0 2 x DisplayPort 1.4",
+                "1024 Stream Processors",
+                "PCI Express 3.0"
+            ]
+        }
+    },
+    "14-932-450": {
+        "domId": "item_cell_14-932-450_27_0",
+        "id": "14-932-450",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "41"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Vision OC GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N3070VISION OC-8GD (rev. 2.0) (LHR)",
+        "price": {
+            "currency": "$",
+            "was": "569.99",
+            "is": "549.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-450-01",
+                "14-932-450-V06",
+                "14-932-450-V10",
+                "14-932-450-V04",
+                "14-932-450-V05",
+                "14-932-450-V07",
+                "14-932-450-V09",
+                "14-932-450-V01",
+                "14-932-450-V08",
+                "14-932-450-V03",
+                "14-932-450-V02"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Core Clock 1815 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "5888 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-932-521": {
+        "domId": "item_cell_14-932-521_28_0",
+        "id": "14-932-521",
+        "rating": {
+            "value": "4.3",
+            "numRatings": "15"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Eagle Radeon RX 6650 XT 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-R665XTEAGLE-8GD",
+        "price": {
+            "currency": "$",
+            "was": "339.99",
+            "is": "279.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-521-V01",
+                "14-932-521-02",
+                "14-932-521-03",
+                "14-932-521-01",
+                "14-932-521-04",
+                "14-932-521-06",
+                "14-932-521-07",
+                "14-932-521-08",
+                "14-932-521-05",
+                "14-932-521-09",
+                "14-932-521-10"
+            ],
+            "features": [
+                "8GB 128-Bit GDDR6",
+                "Boost Clock 2635 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "2048 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-202-424": {
+        "domId": "item_cell_14-202-424_29_0",
+        "id": "14-202-424",
+        "rating": {
+            "value": "4.4",
+            "numRatings": "18"
+        },
+        "brand": {
+            "name": "Sapphire Tech",
+            "id": "Brand1561"
+        },
+        "name": "SAPPHIRE PULSE Radeon RX 6700 10GB GDDR6 PCI Express 4.0 ATX Video Card 11321-02-20G",
+        "price": {
+            "currency": "$",
+            "was": "409.99",
+            "is": "349.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-202-424-V05",
+                "14-202-424-V03",
+                "14-202-424-V02",
+                "14-202-424-V01",
+                "14-202-424-V04"
+            ],
+            "features": [
+                "10GB 160-Bit GDDR6",
+                "Boost Clock 2495 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4",
+                "2304 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "AZUES220525IFnV": {
+        "domId": "item_cell_9SIAZUEHWN8323_30_0",
+        "id": "AZUES220525IFnV",
+        "rating": {
+            "value": "5",
+            "numRatings": "2"
+        },
+        "brand": {
+            "name": "yeston",
+            "id": "Brand203181"
+        },
+        "name": "Yeston RTX 3070 8GB GDDR6 256bit LHR Graphics cards Nvidia pci express 4.0 HDMI 2.1*1 + DP1.4a*3 video cards Desktop computer PC video gaming graphics card",
+        "price": {
+            "currency": "$",
+            "was": "849.00",
+            "is": "599.00"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": ["AZUES220525IFnVU"],
+            "features": [
+                "This version is LHR version(LHR:Lite Hash Rate)Not recommended for mining",
+                "Unified shaders: 5888",
+                "Core frequency: 1500/1770MHz",
+                "Memory capacity and specification: 8G/256bit/GDDR6",
+                "3D features: DirectX12/Ansel/Highlights/G-Sync/VulkanApi/OpenGL4.6/8K/DLSS",
+                "OS features: windows 10/11 (only 64bit)",
+                "Bus interface: PCI Express 4.0 x 16",
+                "Output interface: DP*3+HDMI compatible*1",
+                "External power supply: 8 Pin * 2",
+                "Recommended power supply: rated more than 800W",
+                "Size / weight of graphics card: 301*132*49mm"
+            ]
+        }
+    },
+    "14-126-591": {
+        "domId": "item_cell_14-126-591_31_0",
+        "id": "14-126-591",
+        "rating": {
+            "value": "5",
+            "numRatings": "1"
+        },
+        "brand": {
+            "name": "ASUS",
+            "id": "Brand1315"
+        },
+        "name": "ASUS TUF Gaming GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card TUF-RTX3060-O12G-DEMONSLAYER",
+        "price": {
+            "currency": "$",
+            "is": "489.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-126-591-04",
+                "14-126-591-05",
+                "14-126-591-01",
+                "14-126-591-02",
+                "14-126-591-06",
+                "14-126-591-03"
+            ],
+            "features": [
+                "12GB 192-Bit GDDR6",
+                "Boost Clock OC Mode: 1882 MHz",
+                "Gaming Mode: 1852 MHz",
+                "2 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "3584 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-500-523": {
+        "domId": "item_cell_9SIBDV0J9N0029_32_0",
+        "id": "14-500-523",
+        "rating": {
+            "value": "5",
+            "numRatings": "1"
+        },
+        "brand": {
+            "name": "ZOTAC",
+            "id": "Brand12150"
+        },
+        "name": "ZOTAC GAMING GeForce RTX 3070 Twin Edge OC LHR White Edition 8GB GDDR6 PCI Express 4.0 Video Card ZT-A30700J-10PLHR",
+        "price": {
+            "currency": "$",
+            "is": "498.00"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-500-523-S09",
+                "14-500-523-S04",
+                "14-500-523-S01",
+                "14-500-523-S12",
+                "14-500-523-S02",
+                "14-500-523-S13",
+                "14-500-523-S10",
+                "14-500-523-S03"
+            ],
+            "features": [
+                "White Limited Edition",
+                "2nd Gen Ray Tracing Cores",
+                "3rd Gen Tensor Cores",
+                "White LED Lighting",
+                "IceStorm 2.0 Advanced Cooling",
+                "Active Fan Control with FREEZE Fan Stop",
+                "Metal Wraparound RGB Backplate",
+                "FireStorm Utility",
+                "VR Ready",
+                "LHR 25 MH/s ETH hash rate (est.)"
+            ]
+        }
+    },
+    "14-150-865": {
+        "domId": "item_cell_9SIAD2CJJM2145_33_0",
+        "id": "14-150-865",
+        "rating": {
+            "value": "4.5",
+            "numRatings": "2"
+        },
+        "brand": {
+            "name": "XFX",
+            "id": "Brand1669"
+        },
+        "name": "XFX Speedster SWFT 319 Radeon RX 6900 XT 16GB GDDR6 PCI Express 4.0 Video Card RX-69XTAQFD9",
+        "price": {
+            "currency": "$",
+            "was": "749.99",
+            "is": "679.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-150-865-V01",
+                "14-150-865-V80",
+                "14-150-865-V02",
+                "14-150-865-V03",
+                "14-150-865-V04"
+            ],
+            "features": [
+                "16GB 256-Bit GDDR6",
+                "Core Clock 1825 MHz",
+                "Boost Clock 2250 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4",
+                "5120 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "AZUES211020mGeb": {
+        "domId": "item_cell_9SIAZUEGA78740_34_0",
+        "id": "AZUES211020mGeb",
+        "rating": {
+            "value": "5",
+            "numRatings": "1"
+        },
+        "brand": {
+            "name": "yeston",
+            "id": "Brand203181"
+        },
+        "name": "Yeston Radeon RX 6800 16GB D6 GDDR6 256bit 7nm video cards Desktop computer PC Video Graphics Cards support PCI-Express 4.0 3*DP+1*HDMI-compatible graphics card",
+        "price": {
+            "currency": "$",
+            "was": "619.00",
+            "is": "599.00"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": ["AZUES211020mGebc"],
+            "features": [
+                "Core code and process: Navi 21 / 7nm",
+                "Unified shaders: 3840",
+                "Core frequency / Video frequency: 1815-2105MHz /1980-2190MHz(core game / acceleration frequency) / 16GHz (video frequency)",
+                "Video memory capacity and specification: 16G/ 256bit /GDDR6",
+                "Infinity Cache: 128MB",
+                "3D features: full DirectX 12 / Ray tracing",
+                "OS feature: Win10 64",
+                "Radiator:3 Fans(The light is not adjustable and cannot be turned off)",
+                "Other features: AMD liquidvr Technology, AMD freesync Technology 2 VR Ready",
+                "Bus interface: PCI Express 4.0",
+                "Output interface: DP (1.4 with DSC) * 3 + HDMI-compatible (2.1 VRR and FRL) *1",
+                "External power supply: 8 + 8 pin (Power supply above 750W)",
+                "PS:If you want to turn off the light of the graphics card, you can find the button to turn off at the 8 + 8 pin power interface of the graphics card."
+            ]
+        }
+    },
+    "14-150-859": {
+        "domId": "item_cell_14-150-859_35_0",
+        "id": "14-150-859",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "81"
+        },
+        "brand": {
+            "name": "XFX",
+            "id": "Brand1669"
+        },
+        "name": "XFX SPEEDSTER MERC319 AMD Radeon RX 6900 XT LIMITED BLACK Gaming Graphics Card with 16GB GDDR6, AMD RDNA 2, RX-69XTACSD9",
+        "price": {
+            "currency": "$",
+            "was": "809.99",
+            "is": "699.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-150-859-V80",
+                "14-150-859-V81",
+                "14-150-859-V06",
+                "14-150-859-V07",
+                "14-150-859-01",
+                "14-150-859-V03",
+                "14-150-859-V01",
+                "14-150-859-V05",
+                "14-150-859-V02",
+                "14-150-859-V04"
+            ],
+            "features": [
+                "16GB 256-Bit GDDR6",
+                "Core Clock 2150 MHz",
+                "Boost Clock 2495 MHz",
+                "1 x HDMI 2.1 2 x DisplayPort 1.4",
+                "5120 Stream Processors",
+                "PCI Express 4.0 x16"
+            ]
+        }
+    },
+    "14-137-673": {
+        "domId": "item_cell_14-137-673_36_0",
+        "id": "14-137-673",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "80"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Ventus GeForce RTX 3060 Ti 8GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ti VENTUS 2X 8G OCV1 LHR",
+        "price": {
+            "currency": "$",
+            "was": "491.49",
+            "is": "429.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-673-V13",
+                "14-137-673-V80",
+                "14-137-673-V19",
+                "14-137-673-V20",
+                "14-137-673-V12",
+                "14-137-673-V16",
+                "14-137-673-V81",
+                "14-137-673-V11",
+                "14-137-673-V18",
+                "14-137-673-V22",
+                "14-137-673-V21",
+                "14-137-673-V17",
+                "14-137-673-V14",
+                "14-137-673-V15"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Boost Clock 1695 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "4864 CUDA Cores",
+                "PCI Express 4.0 x16",
+                "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (estimate)."
+            ]
+        }
+    },
+    "14-137-671": {
+        "domId": "item_cell_14-137-671_37_0",
+        "id": "14-137-671",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "42"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR",
+        "price": {
+            "currency": "$",
+            "was": "579.99",
+            "is": "549.99"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": [
+                "14-137-671-V15",
+                "14-137-671-V80",
+                "14-137-671-V19",
+                "14-137-671-V20",
+                "14-137-671-V12",
+                "14-137-671-V14",
+                "14-137-671-V81",
+                "14-137-671-V18",
+                "14-137-671-V11",
+                "14-137-671-V10",
+                "14-137-671-V09",
+                "14-137-671-V17",
+                "14-137-671-V16",
+                "14-137-671-V13"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Boost Clock 1755 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "5888 CUDA Cores",
+                "PCI Express 4.0 x16",
+                "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (estimate)."
+            ]
+        }
+    },
+    "14-202-415": {
+        "domId": "item_cell_14-202-415_38_0",
+        "id": "14-202-415",
+        "rating": {
+            "value": "4.5",
+            "numRatings": "37"
+        },
+        "brand": {
+            "name": "Sapphire Tech",
+            "id": "Brand1561"
+        },
+        "name": "Sapphire Pulse AMD Radeon RX 6600 Gaming 8GB GDDR6 HDMI / DP LITE EDITION Video Card 11310-04-20G",
+        "price": {
+            "currency": "$",
+            "was": "279.99",
+            "is": "239.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": ["14-202-415-V02", "14-202-415-V01"],
+            "features": [
+                "8GB 128-Bit GDDR6",
+                "Boost Clock 2491 MHz",
+                "1 x HDMI 2.1 1 x DisplayPort 1.4",
+                "1792 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-932-455": {
+        "domId": "item_cell_14-932-455_39_0",
+        "id": "14-932-455",
+        "rating": {
+            "value": "4.9",
+            "numRatings": "21"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Eagle OC GeForce RTX 3060 Ti 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N306TEAGLE OC-8GD (rev. 2.0) (LHR)",
+        "price": {
+            "currency": "$",
+            "is": "449.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-455-01",
+                "14-932-455-V01",
+                "14-932-455-V07",
+                "14-932-455-V09",
+                "14-932-455-V02",
+                "14-932-455-V05",
+                "14-932-455-V08",
+                "14-932-455-V10",
+                "14-932-455-V03",
+                "14-932-455-V04",
+                "14-932-455-V06"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Core Clock 1695 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "4864 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-500-536": {
+        "domId": "item_cell_9SIAMFBJ9U0990_40_0",
+        "id": "14-500-536",
+        "rating": {},
+        "brand": {
+            "name": "ZOTAC",
+            "id": "Brand12150"
+        },
+        "name": "ZOTAC GAMING GeForce RTX 3090 AMP Extreme Holo 24GB GDDR6X PCI Express 4.0 SLI Support Video Cards ZT-A30900B-10P",
+        "price": {
+            "currency": "$",
+            "was": "1,099.99",
+            "is": ""
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-500-536-V80",
+                "14-500-536-02",
+                "14-500-536-05",
+                "14-500-536-03",
+                "14-500-536-08",
+                "14-500-536-06",
+                "14-500-536-01",
+                "14-500-536-04",
+                "14-500-536-07",
+                "14-500-536-V81",
+                "14-500-536-09"
+            ],
+            "features": [
+                "24GB 384-Bit GDDR6X",
+                "Boost Clock 1815 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "10496 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-137-661": {
+        "domId": "item_cell_14-137-661_41_0",
+        "id": "14-137-661",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "128"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card RTX 3070 Ti Gaming X Trio 8G",
+        "price": {
+            "currency": "$",
+            "is": "639.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-661-V01",
+                "14-137-661-V03",
+                "14-137-661-V02",
+                "14-137-661-V80",
+                "14-137-661-V05",
+                "14-137-661-V07",
+                "14-137-661-V06",
+                "14-137-661-V04",
+                "14-137-661-V81"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6X",
+                "Boost Clock 1830 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "6144 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-137-720": {
+        "domId": "item_cell_14-137-720_42_0",
+        "id": "14-137-720",
+        "rating": {
+            "value": "4.3",
+            "numRatings": "26"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Gaming Radeon RX 6800 XT 16GB GDDR6 PCI Express 4.0 Video Card RX 6800 XT Gaming Z Trio 16G",
+        "price": {
+            "currency": "$",
+            "was": "629.99",
+            "is": "599.99"
+        },
+        "freeShipping": false,
+        "detail": {
+            "imageList": [
+                "14-137-720-S01",
+                "14-137-720-S81",
+                "14-137-720-S02",
+                "14-137-720-S04",
+                "14-137-720-S80",
+                "14-137-720-S03",
+                "14-137-720-S05"
+            ],
+            "features": [
+                "16GB 256-Bit GDDR6",
+                "Boost Clock 2310 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4",
+                "4608 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-126-511": {
+        "domId": "item_cell_14-126-511_43_0",
+        "id": "14-126-511",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "85"
+        },
+        "brand": {
+            "name": "ASUS",
+            "id": "Brand1315"
+        },
+        "name": "ASUS ROG Strix GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card ROG-STRIX-RTX3070TI-O8G-GAMING",
+        "price": {
+            "currency": "$",
+            "is": "749.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-126-511-V06",
+                "14-126-511-V80",
+                "14-126-511-V09",
+                "14-126-511-V08",
+                "14-126-511-V12",
+                "14-126-511-V10",
+                "14-126-511-V03",
+                "14-126-511-V81",
+                "14-126-511-V13",
+                "14-126-511-V11",
+                "14-126-511-V04",
+                "14-126-511-V01",
+                "14-126-511-V05",
+                "14-126-511-V02",
+                "14-126-511-V07"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6X",
+                "OC mode: 1875 MHz (Boost Clock)",
+                "Gaming mode: 1845 MHz (Boost Clock)",
+                "2 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "6144 CUDA Cores",
+                "PCI Express 4.0 x16"
+            ]
+        }
+    },
+    "14-932-454": {
+        "domId": "item_cell_14-932-454_44_0",
+        "id": "14-932-454",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "24"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Vision OC GeForce RTX 3060 Ti 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N306TVISION OC-8GD (rev. 2.0) (LHR)",
+        "price": {
+            "currency": "$",
+            "was": "479.99",
+            "is": "459.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-454-V10",
+                "14-932-454-01",
+                "14-932-454-V06",
+                "14-932-454-V09",
+                "14-932-454-V07",
+                "14-932-454-V01",
+                "14-932-454-V08",
+                "14-932-454-V03",
+                "14-932-454-V05",
+                "14-932-454-V02",
+                "14-932-454-V04"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Core Clock 1755 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "4864 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-487-486": {
+        "domId": "item_cell_14-487-486_45_0",
+        "id": "14-487-486",
+        "rating": {
+            "value": "4.4",
+            "numRatings": "228"
+        },
+        "brand": {
+            "name": "EVGA",
+            "id": "Brand1402"
+        },
+        "name": "EVGA GeForce RTX 2060 KO ULTRA GAMING Video Card, 06G-P4-2068-KR, 6GB GDDR6, Dual Fans, Metal Backplate",
+        "price": {
+            "currency": "$",
+            "is": "269.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-487-486-V01",
+                "14-487-486-V07",
+                "14-487-486-V03",
+                "14-487-486-V80",
+                "14-487-486-V04",
+                "14-487-486-V06",
+                "14-487-486-V90",
+                "14-487-486-V05"
+            ],
+            "features": [
+                "Real Boost Clock: 1755 MHz; Memory Detail: 6144MB GDDR6",
+                "Real-Time RAY TRACING in games for cutting-edge, hyper-realistic graphics",
+                "Dual Fans offer higher performance cooling and low acoustic noise",
+                "Built for EVGA Precision X1 + All-Metal Backplate, Pre-Installed"
+            ]
+        }
+    },
+    "14-137-677": {
+        "domId": "item_cell_14-137-677_46_0",
+        "id": "14-137-677",
+        "rating": {
+            "value": "4.7",
+            "numRatings": "83"
+        },
+        "brand": {
+            "name": "MSI",
+            "id": "Brand1312"
+        },
+        "name": "MSI Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 GAMING Z TRIO 10G LHR",
+        "price": {
+            "currency": "$",
+            "is": "759.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-137-677-V07",
+                "14-137-677-V11",
+                "14-137-677-V80",
+                "14-137-677-V03",
+                "14-137-677-V09",
+                "14-137-677-V12",
+                "14-137-677-V05",
+                "14-137-677-V08",
+                "14-137-677-V06",
+                "14-137-677-V04",
+                "14-137-677-V01",
+                "14-137-677-V81",
+                "14-137-677-V10"
+            ],
+            "features": [
+                "10GB 320-Bit GDDR6X",
+                "Boost Clock 1830 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4a",
+                "8704 CUDA Cores",
+                "PCI Express 4.0 x16",
+                "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (estimate)"
+            ]
+        }
+    },
+    "14-202-394": {
+        "domId": "item_cell_14-202-394_47_0",
+        "id": "14-202-394",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "17"
+        },
+        "brand": {
+            "name": "Sapphire Tech",
+            "id": "Brand1561"
+        },
+        "name": "Sapphire Pulse AMD RADEON RX 6800 GAMING GRAPHICS CARD WITH 16GB GDDR6, AMD RDNA 2 (11305-02-20G)",
+        "price": {
+            "currency": "$",
+            "was": "549.99",
+            "is": "539.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-202-394-S04",
+                "14-202-394-S02",
+                "14-202-394-V80",
+                "14-202-394-S03",
+                "14-202-394-01"
+            ],
+            "features": [
+                "16GB 256-Bit GDDR6",
+                "Boost Clock 2170 MHz",
+                "1 x HDMI 2.1 3 x DisplayPort 1.4",
+                "3840 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-930-063": {
+        "domId": "item_cell_14-930-063_48_0",
+        "id": "14-930-063",
+        "rating": {
+            "value": "4.6",
+            "numRatings": "66"
+        },
+        "brand": {
+            "name": "ASRock",
+            "id": "Brand1944"
+        },
+        "name": "ASRock Challenger D Radeon RX 6600 XT 8GB GDDR6 PCI Express 4.0 Video Card RX6600XT CLD 8GO",
+        "price": {
+            "currency": "$",
+            "was": "329.99",
+            "is": "289.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-930-063-V09",
+                "14-930-063-V81",
+                "14-930-063-V11",
+                "14-930-063-V10",
+                "14-930-063-V07",
+                "14-930-063-V08",
+                "14-930-063-V80",
+                "14-930-063-V14",
+                "14-930-063-V12",
+                "14-930-063-V13"
+            ],
+            "features": [
+                "8GB 128-Bit GDDR6",
+                "Core Clock 2000 MHz",
+                "Boost Clock 2593 MHz",
+                "1 x HDMI 2.1 VRR 3 x DisplayPort 1.4 with DSC",
+                "2048 Stream Processors",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "14-932-468": {
+        "domId": "item_cell_14-932-468_49_0",
+        "id": "14-932-468",
+        "rating": {
+            "value": "4.8",
+            "numRatings": "43"
+        },
+        "brand": {
+            "name": "GIGABYTE",
+            "id": "Brand1314"
+        },
+        "name": "GIGABYTE Gaming OC GeForce RTX 3060 Ti 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N306TGAMING OC-8GD REV 2.0 (LHR)",
+        "price": {
+            "currency": "$",
+            "is": "459.99"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": [
+                "14-932-468-V01",
+                "14-932-468-V07",
+                "14-932-468-V10",
+                "14-932-468-V05",
+                "14-932-468-V04",
+                "14-932-468-V06",
+                "14-932-468-V09",
+                "14-932-468-V02",
+                "14-932-468-V03",
+                "14-932-468-V08"
+            ],
+            "features": [
+                "8GB 256-Bit GDDR6",
+                "Core Clock 1740 MHz",
+                "2 x HDMI 2.1 2 x DisplayPort 1.4a",
+                "4864 CUDA Cores",
+                "PCI Express 4.0"
+            ]
+        }
+    },
+    "B86XS220310evy2": {
+        "domId": "item_cell_9SIB86XH2K2757_50_0",
+        "id": "B86XS220310evy2",
+        "rating": {
+            "value": "5",
+            "numRatings": "2"
+        },
+        "brand": {
+            "name": "51Risc",
+            "id": "Brand221116"
+        },
+        "name": "51Risc AMD Radeon RX 580 DirectX 12 RX580 8G 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Gaming Video Card Mining GPU",
+        "price": {
+            "currency": "$",
+            "was": "249.99",
+            "is": "129.00"
+        },
+        "freeShipping": true,
+        "detail": {
+            "imageList": ["B86XS220310evy29"],
+            "features": [
+                "Chipset: AMD Radeon RX 580",
+                "Boost / Base Core Clock: 1370 MHz",
+                "Video Memory: 8GB GDDR5. Form Factor: Plug-in Card",
+                "Memory Interface: 256-bit; Bus: PCI-Express 3.0 x16",
+                "Recommended psu is 500 watt. Core name is polaris 20 xtx. Directx version support is 12. Opengl version support is 4.5"
+            ]
+        }
+    }
+}

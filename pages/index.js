@@ -1,9 +1,25 @@
+import fs from "fs";
+import path from "path";
+
 import Head from "next/head";
 
 import AndromedaNavbar from "../components/Navbar";
 import ProductGrid from "../components/ProductGrid";
 
-export default function Home() {
+// This gets called on every request
+export async function getServerSideProps() {
+    const cardsJson = JSON.parse(
+        fs.readFileSync(
+            path.join(process.cwd(), `server`, `cards.json`),
+            `utf8`
+        )
+    );
+
+    // Pass data to the page via props
+    return { props: { cards: Object.values(cardsJson) } };
+}
+
+export default function Home({ cards }) {
     return (
         <>
             <Head>
@@ -15,7 +31,52 @@ export default function Home() {
                 <link rel="icon" href="/andromeda.ico" />
             </Head>
             <AndromedaNavbar />
-            <ProductGrid />
+            <ProductGrid cards={cards} />
         </>
     );
 }
+
+/*
+{
+    "domId": "item_cell_14-126-512_1_0",
+    "id": "14-126-512",
+    "rating": {
+        "value": "4.6",
+        "numRatings": "194"
+    },
+    "brand": "ASUS",
+    "name": "ASUS TUF Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card TUF-RTX3070TI-O8G-GAMING",
+    "price": {
+        "currency": "$",
+        "was": "689.99",
+        "is": "659.99"
+    },
+    "freeShipping": true,
+    "detail": {
+        "imageList": [
+            "14-126-512-02",
+            "14-126-512-V27",
+            "14-126-512-V90",
+            "14-126-512-V35",
+            "14-126-512-V31",
+            "14-126-512-V34",
+            "14-126-512-V26",
+            "14-126-512-V81",
+            "14-126-512-V36",
+            "14-126-512-V33",
+            "14-126-512-V32",
+            "14-126-512-V30",
+            "14-126-512-V29",
+            "14-126-512-V28"
+        ],
+        "features": [
+            "8GB 256-Bit GDDR6X",
+            "OC mode: 1815MHz (Boost Clock)",
+            "Gaming mode: 1785 MHz (Boost Clock)",
+            "2 x HDMI 3 x DisplayPort 1.4a",
+            "6144 CUDA Cores",
+            "PCI Express 4.0 x16"
+        ]
+    }
+}
+*/

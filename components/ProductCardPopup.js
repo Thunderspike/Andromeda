@@ -21,19 +21,14 @@ import Typography from "@mui/material/Typography";
 // Styles
 import { useTheme } from "@mui/material/styles";
 
-// prettier-ignore
-const images = [
-    `14-126-512-02`, `14-126-512-V27`, `14-126-512-V90`, `14-126-512-V35`, `14-126-512-V31`, `14-126-512-V34`, `14-126-512-V26`, `14-126-512-V81`, `14-126-512-V36`, `14-126-512-V33`, `14-126-512-V32`, `14-126-512-V30`, `14-126-512-V29`, `14-126-512-V28`
-];
-// prettier-ignore
-const features = [
-    `8GB 256-Bit GDDR6X`, `OC mode: 1815MHz (Boost Clock)`, 
-    `Gaming mode: 1785 MHz (Boost Clock)`, `2 x HDMI 3 x DisplayPort 1.4a`,
-    `6144 CUDA Cores`, `PCI Express 4.0 x16`
-];
+import { ProductCardBody } from "./ProductCard";
+
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 export default function ProductCardPopup(props) {
+    const { id, name, detail } = props.card,
+        { imageList, features } = detail;
+
     const theme = useTheme();
     const [activeStep, setActiveStep] = React.useState(0);
 
@@ -46,7 +41,7 @@ export default function ProductCardPopup(props) {
     return (
         <div>
             <Popover
-                id={props.id}
+                id={id}
                 open={Boolean(props.anchorEl)}
                 anchorEl={props.anchorEl}
                 onClose={props.onClose}
@@ -59,79 +54,76 @@ export default function ProductCardPopup(props) {
                     horizontal: "left",
                 }}
             >
-                <Box sx={{ maxWidth: 700, p: 1 }}>
-                    <Typography sx={{ px: 1, pt: 1 }} variant="h6">
-                        ASUS TUF Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI
-                        Express 4.0 Video Card TUF-RTX3070TI-O8G-GAMING
+                <Box sx={{ maxWidth: 375, p: 1 }}>
+                    <Typography sx={{ px: 1, lineHeight: "1.05" }} variant="h6">
+                        {name}
                     </Typography>
-                    <Box sx={{ display: `flex`, justifyContent: `center` }}>
-                        <Box sx={{ width: 350, flexGrow: 1 }}>
-                            <AutoPlaySwipeableViews
-                                axis={
-                                    theme.direction === "rtl"
-                                        ? "x-reverse"
-                                        : "x"
-                                }
-                                index={activeStep}
-                                onChangeIndex={handleStepChange}
-                                enableMouseEvents
-                            >
-                                {images.map((imageId, index) => (
-                                    <div key={imageId}>
-                                        {Math.abs(activeStep - index) <= 2 ? (
-                                            <Image
-                                                src={`https://c1.neweggimages.com/ProductImage/${imageId}.jpg`}
-                                                layout="responsive"
-                                                width="600"
-                                                height="450"
-                                                objectFit="cover"
-                                            />
-                                        ) : null}
-                                    </div>
-                                ))}
-                            </AutoPlaySwipeableViews>
-                            <MobileStepper
-                                variant="text"
-                                steps={images.length}
-                                position="static"
-                                activeStep={activeStep}
-                                nextButton={
-                                    <Button
-                                        size="small"
-                                        onClick={handleNext}
-                                        disabled={
-                                            activeStep === images.length - 1
-                                        }
-                                    >
-                                        {/* Next */}
-                                        {theme.direction === "rtl" ? (
-                                            <KeyboardArrowLeft />
-                                        ) : (
-                                            <KeyboardArrowRight />
-                                        )}
-                                    </Button>
-                                }
-                                backButton={
-                                    <Button
-                                        size="small"
-                                        onClick={handleBack}
-                                        disabled={activeStep === 0}
-                                    >
-                                        {theme.direction === "rtl" ? (
-                                            <KeyboardArrowRight />
-                                        ) : (
-                                            <KeyboardArrowLeft />
-                                        )}
-                                        {/* Back */}
-                                    </Button>
-                                }
-                            />
-                        </Box>
-                        <Box sx={{ px: 2, py: 1.5 }}>
-                            {features.map((feature, index) => (
-                                <li key={index}>{feature}</li>
+                    <Box sx={{ width: 350, flexGrow: 1, paddingTop: 0 }}>
+                        <AutoPlaySwipeableViews
+                            axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+                            index={activeStep}
+                            onChangeIndex={handleStepChange}
+                            enableMouseEvents
+                        >
+                            {imageList.map((imageId, index) => (
+                                <div key={imageId}>
+                                    {Math.abs(activeStep - index) <= 2 ? (
+                                        <Image
+                                            src={`https://c1.neweggimages.com/ProductImage/${imageId}.jpg`}
+                                            layout="responsive"
+                                            width="600"
+                                            height="450"
+                                            objectFit="cover"
+                                        />
+                                    ) : null}
+                                </div>
                             ))}
-                        </Box>
+                        </AutoPlaySwipeableViews>
+                        <MobileStepper
+                            variant="text"
+                            steps={imageList.length}
+                            position="static"
+                            activeStep={activeStep}
+                            nextButton={
+                                <Button
+                                    size="small"
+                                    onClick={handleNext}
+                                    disabled={
+                                        activeStep === imageList.length - 1
+                                    }
+                                >
+                                    {theme.direction === "rtl" ? (
+                                        <KeyboardArrowLeft />
+                                    ) : (
+                                        <KeyboardArrowRight />
+                                    )}
+                                </Button>
+                            }
+                            backButton={
+                                <Button
+                                    size="small"
+                                    onClick={handleBack}
+                                    disabled={activeStep === 0}
+                                >
+                                    {theme.direction === "rtl" ? (
+                                        <KeyboardArrowRight />
+                                    ) : (
+                                        <KeyboardArrowLeft />
+                                    )}
+                                </Button>
+                            }
+                        />
+                    </Box>
+                    <Box sx={{ px: 2, py: 1.5 }}>
+                        {features.map((feature, index) => (
+                            <li key={index}>{feature}</li>
+                        ))}
+                    </Box>
+                    <Box sx={{ p: 1 }}>
+                        <ProductCardBody
+                            card={props.card}
+                            displayTitle={false}
+                        />
                     </Box>
                 </Box>
             </Popover>

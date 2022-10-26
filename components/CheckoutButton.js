@@ -1,36 +1,22 @@
 import * as React from "react";
 
+import Badge from "@mui/material/Badge";
 import Button from "@mui/material/Button";
-import Paper from "@mui/material/Paper";
 import Divider from "@mui/material/Divider";
-import MenuList from "@mui/material/MenuList";
+import FormControl from "@mui/material/FormControl";
+import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import Check from "@mui/icons-material/Check";
-import {
-    Badge,
-    FormControl,
-    Input,
-    InputLabel,
-    Menu,
-    Popover,
-    Select,
-} from "@mui/material";
+import Paper from "@mui/material/Paper";
+import Popover from "@mui/material/Popover";
+import Select from "@mui/material/Select";
 
-import InputBase from "@mui/material/InputBase";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import SearchIcon from "@mui/icons-material/Search";
-import DirectionsIcon from "@mui/icons-material/Directions";
 import AddIcon from "@mui/icons-material/Add";
-import RemoveIcon from "@mui/icons-material/Remove";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import IconButton from "@mui/material/IconButton";
+import RemoveIcon from "@mui/icons-material/Remove";
 
 import { indigo } from "@mui/material/colors";
 import { styled } from "@mui/material/styles";
-import uc from "../styles/utils.module.css";
-import { MedicalInformationOutlined } from "@mui/icons-material";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     "& .MuiBadge-badge": {
@@ -59,7 +45,6 @@ class Pulser {
         this.animationTime = 1500;
     }
     applyTo(els = []) {
-        console.log(els);
         if (this.timeOutId) clearTimeout(this.timeOutId);
         els.forEach((el) => el?.classList?.add(`pulse`));
         this.timeOutId = setTimeout(() => {
@@ -70,24 +55,32 @@ class Pulser {
 
 const pulser = new Pulser();
 
-export default function CheckoutButton(props) {
+export default function CheckoutButton({
+    numItemsInCart,
+    onSingleAdd,
+    onSinlgeRemove,
+    onSelectNum,
+    maxItemsInInventory = 30,
+}) {
     const [qCheckoutEl, sQCheckoutEl] = React.useState(null);
-    const [numItemsInCart, sNumItemsInCart] = React.useState(0);
-    const maxItemsInInventory = 30;
+    // const [numItemsInCart, sNumItemsInCart] = React.useState(0);
 
     // useRef vs createRef: https://blog.logrocket.com/complete-guide-react-refs/
     const selectRef = React.useRef(null),
         labelRef = React.useRef(null);
 
     return (
-        <div style={{ margin: "1em" }}>
+        <>
             <StyledBadge
                 badgeContent={numItemsInCart}
                 invisible={!!qCheckoutEl}
             >
                 <Button
                     variant="contained"
-                    onClick={(e) => sQCheckoutEl(e.currentTarget)}
+                    onClick={(e) => {
+                        // onSingleAdd(); // uncomment to allow button click to add 1 to the product
+                        sQCheckoutEl(e.currentTarget);
+                    }}
                     endIcon={<AddShoppingCartIcon />}
                 >
                     Add to Cart
@@ -124,12 +117,7 @@ export default function CheckoutButton(props) {
                                 selectRef.current,
                                 labelRef.curren,
                             ]);
-                            sNumItemsInCart(
-                                Math.min(
-                                    maxItemsInInventory,
-                                    numItemsInCart + 1
-                                )
-                            );
+                            onSingleAdd();
                         }}
                     >
                         <AddIcon />
@@ -146,7 +134,7 @@ export default function CheckoutButton(props) {
                                 selectRef.current,
                                 labelRef.curren,
                             ]);
-                            sNumItemsInCart(Math.max(0, numItemsInCart - 1));
+                            onSinlgeRemove();
                         }}
                     >
                         <RemoveIcon />
@@ -162,9 +150,9 @@ export default function CheckoutButton(props) {
                             label="number"
                             className="hello"
                             ref={selectRef}
-                            onChange={(event) => {
-                                sNumItemsInCart(event.target.value);
-                            }}
+                            onChange={(event) =>
+                                onSelectNum(event.target.value)
+                            }
                             MenuProps={{ sx: { maxHeight: `350px` } }}
                         >
                             {Array(maxItemsInInventory + 1)
@@ -178,6 +166,6 @@ export default function CheckoutButton(props) {
                     </FormControl>
                 </Paper>
             </Popover>
-        </div>
+        </>
     );
 }
