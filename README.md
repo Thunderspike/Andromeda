@@ -8,10 +8,10 @@ npm run dev
 
 ## To do
 
--   [] - grid of photos
+-   [x] -   grid of photos
 -   [] - sqlLite installation & integration
--   [] - db creation + user table
--   [] - authentication
+-   [x] -   db creation + user table
+-   [x] -   authentication
 -   [] - log in/out/forget password
 -   [] - CMS features for admin page
 

@@ -16,7 +16,7 @@ export async function getServerSideProps() {
     );
 
     // Pass data to the page via props
-    return { props: { cards: Object.values(cardsJson) } };
+    return { props: { cards: Object.values(cardsJson).slice(0, 10) } };
 }
 
 export default function Home({ cards }) {
@@ -35,48 +35,3 @@ export default function Home({ cards }) {
         </>
     );
 }
-
-/*
-{
-    "domId": "item_cell_14-126-512_1_0",
-    "id": "14-126-512",
-    "rating": {
-        "value": "4.6",
-        "numRatings": "194"
-    },
-    "brand": "ASUS",
-    "name": "ASUS TUF Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card TUF-RTX3070TI-O8G-GAMING",
-    "price": {
-        "currency": "$",
-        "was": "689.99",
-        "is": "659.99"
-    },
-    "freeShipping": true,
-    "detail": {
-        "imageList": [
-            "14-126-512-02",
-            "14-126-512-V27",
-            "14-126-512-V90",
-            "14-126-512-V35",
-            "14-126-512-V31",
-            "14-126-512-V34",
-            "14-126-512-V26",
-            "14-126-512-V81",
-            "14-126-512-V36",
-            "14-126-512-V33",
-            "14-126-512-V32",
-            "14-126-512-V30",
-            "14-126-512-V29",
-            "14-126-512-V28"
-        ],
-        "features": [
-            "8GB 256-Bit GDDR6X",
-            "OC mode: 1815MHz (Boost Clock)",
-            "Gaming mode: 1785 MHz (Boost Clock)",
-            "2 x HDMI 3 x DisplayPort 1.4a",
-            "6144 CUDA Cores",
-            "PCI Express 4.0 x16"
-        ]
-    }
-}
-*/

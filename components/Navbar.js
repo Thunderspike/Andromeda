@@ -20,24 +20,27 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 import { Search, SearchIconWrapper, StyledInputBase } from "./NavbarHelpers";
 import AndromedSvg from "./SvgIcon";
+import LoginPoup from "./LoginPopup";
 
 const ResponsiveAppBar = () => {
-    const [anchorEl, setAnchorEl] = React.useState(null);
+    // loggedIn
+    const [li_anchorEl, set_li_anchorEl] = React.useState(null),
+        [nli_anchorEl, set_nli_anchorEl] = React.useState(null);
 
     const accountSettingsMenuId = `accountSettingsMenu`,
-        isAccountSettingsOpen = Boolean(anchorEl),
-        loggedIn = true;
+        isAccountSettingsOpen = Boolean(li_anchorEl),
+        loggedIn = false;
 
     const accountSettingsMenu = (
         // https://mui.com/material-ui/react-menu/#account-menu
         <Menu
             id={accountSettingsMenuId}
-            anchorEl={anchorEl}
+            anchorEl={li_anchorEl}
             transformOrigin={{ horizontal: "right", vertical: "top" }}
             anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
             keepMounted
             open={isAccountSettingsOpen}
-            onClose={() => setAnchorEl(null)}
+            onClose={() => set_li_anchorEl(null)}
         >
             <MenuItem
                 onClick={() => {
@@ -112,6 +115,9 @@ const ResponsiveAppBar = () => {
                                     size="large"
                                     edge="end"
                                     color="inherit"
+                                    onClick={({ currentTarget }) =>
+                                        set_nli_anchorEl(currentTarget)
+                                    }
                                 >
                                     <LoginRoundedIcon />
                                 </IconButton>
@@ -123,7 +129,7 @@ const ResponsiveAppBar = () => {
                                     aria-controls={accountSettingsMenuId}
                                     aria-haspopup="true"
                                     onClick={(event) =>
-                                        setAnchorEl(event.currentTarget)
+                                        set_li_anchorEl(event.currentTarget)
                                     }
                                     color="inherit"
                                 >
@@ -134,6 +140,10 @@ const ResponsiveAppBar = () => {
                     </Toolbar>
                 </Container>
             </AppBar>
+            <LoginPoup
+                anchorEl={nli_anchorEl}
+                onClose={() => set_nli_anchorEl(null)}
+            />
             {accountSettingsMenu}
         </Box>
     );

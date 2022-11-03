@@ -53,7 +53,7 @@ export function ProductCardBody({ card, displayTitle = true }) {
 
     return (
         <>
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            <Box className={uc.flex_beteen_center}>
                 {isNaN(ratingVal) ? (
                     <div></div>
                 ) : (
@@ -66,7 +66,7 @@ export function ProductCardBody({ card, displayTitle = true }) {
                         >
                             <Rating
                                 name="item-rating"
-                                value={ratingVal}
+                                value={Number(ratingVal)}
                                 precision={ratingPrecision}
                                 readOnly
                                 getLabelText={() => ratingTextVal}
@@ -153,7 +153,7 @@ export function ProductCardBody({ card, displayTitle = true }) {
                     )}
                 </Box>
                 {freeShipping && price.is && (
-                    <Typography variant="body2" sx={{ mt: 0.2, mr: 2 }}>
+                    <Typography variant="body2" sx={{ mt: 0.2 }}>
                         Free Shipping
                     </Typography>
                 )}
@@ -201,6 +201,7 @@ export function ProductCardBody({ card, displayTitle = true }) {
                                     }
                                 />
                             }
+                            sx={{ mr: 0.5 }}
                             label="Compare"
                         />
                     </FormGroup>
