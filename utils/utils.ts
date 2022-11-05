@@ -1,10 +1,22 @@
 import { middleware } from "./gloabls";
 
+const charsOnlyRegex = /^[a-zA-Z]+$/,
+    charRegex = /[a-zA-Z]/,
+    numRegex = /[0-9]/,
+    alphaNumdashRegex = /[^_\w]/,
+    wsRegex = /\s/;
+
+export const onlyCharsAndNums = (input) => {
+    return (
+        !wsRegex.test(input) && // no white spaces
+        !alphaNumdashRegex.test(input) && // no symbols other than a-z0-9
+        charRegex.test(input) && // at least 1 a-zA-Z
+        numRegex.test(input) // at least 1 0-9
+    );
+};
+
 export const p_timeout = (timeout = 500) =>
     new Promise((resolve) => setTimeout(resolve, timeout));
-
-export const equalCaseInsensitive = (str1, str2) =>
-    str1.toLowerCase() == str2.toLowerCase();
 
 // lodash's debounce
 export const debounce = (func, wait, options) => {

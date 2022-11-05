@@ -18,12 +18,16 @@ import {
     Slide,
     Zoom,
     Alert,
+    FormHelperText,
+    FormHelperTextProps,
 } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
 
 import uc from "../styles/utils.module.css";
-import { p_postData } from "../utils/utils";
+import { onlyCharsAndNums, p_postData } from "../utils/utils";
 import { authEndpoint, middleware } from "../utils/gloabls";
+
+import { deepOrange } from "@mui/material/colors";
 
 const textStyle = {
     background: `linear-gradient(to right, #007FFF, #0059B2)`,
@@ -38,12 +42,9 @@ const textStyle = {
 
 const longAnimationDuration = 500;
 
-const wsRegex = /\s/,
-    passwordRegex = /([a-zA-Z]\d)+|(\d[a-zA-Z]+)/;
-
 export default function AuthForms(props) {
     // goes from true to false, then back to true
-    const [isLogin, setIsLogin] = React.useState(true);
+    const [isLogin, setIsLogin] = React.useState(false);
     const [toggleIn, setToggleIn] = React.useState(true);
 
     return (
@@ -77,7 +78,6 @@ const LoginForm = React.forwardRef(
         const [password, setPassword] = React.useState("");
         const [submitDisable, setSubmitDisable] = React.useState(true);
         const [isLoading, setIsLoading] = React.useState(false);
-        const [invalidLogin, setInvalidLogin] = React.useState(false);
         const [invalidLoginMsg, setInvalidLoginMsg] = React.useState("");
 
         const loginInputRef = React.useRef(null);
@@ -91,24 +91,23 @@ const LoginForm = React.forwardRef(
         const handleLogin = async (event) => {
             event.preventDefault();
 
+            setInvalidLoginMsg("");
+            setIsLoading(true);
+
             const form = new FormData(event.currentTarget),
                 data = {
                     login_id: form.get("login_id"),
                     password: form.get("password"),
-                };
-
-            setInvalidLogin(false);
-            setIsLoading(true);
-
-            const method = `login`;
+                },
+                method = `login`;
 
             try {
                 await p_postData({
                     url: `${middleware}/${authEndpoint}/${method}`,
                     data,
                 });
+                console.log(`Continue here`);
             } catch ({ message }) {
-                setInvalidLogin(true);
                 setInvalidLoginMsg(message);
                 setLoginId("");
                 setPassword("");
@@ -117,6 +116,12 @@ const LoginForm = React.forwardRef(
             }
 
             setIsLoading(false);
+        };
+
+        const finishHidingLogin = () => {
+            // hide invalid login message if exists on switch screen
+            setInvalidLoginMsg("");
+            animationComplete();
         };
 
         return (
@@ -132,7 +137,7 @@ const LoginForm = React.forwardRef(
                         <Typography variant="h6" sx={textStyle}>
                             Log In
                         </Typography>
-                        <Grow in={invalidLogin}>
+                        <Grow in={Boolean(invalidLoginMsg.length)}>
                             <Alert
                                 icon={false}
                                 severity="warning"
@@ -148,20 +153,14 @@ const LoginForm = React.forwardRef(
                     <Collapse
                         orientation="horizontal"
                         in={animationState}
-                        onExited={() => {
-                            loginInputRef;
-                            setInvalidLogin(false); // hide
-                            animationComplete();
-                        }}
+                        onExited={finishHidingLogin}
                         timeout={longAnimationDuration}
                     >
                         <TextField
                             id="login_id"
                             name="login_id"
                             value={loginId}
-                            onChange={(
-                                event: React.ChangeEvent<HTMLInputElement>
-                            ) => setLoginId(event.target.value)}
+                            onChange={({ target }) => setLoginId(target.value)}
                             autoFocus
                             inputRef={loginInputRef}
                             label="Email Address or Username"
@@ -173,9 +172,7 @@ const LoginForm = React.forwardRef(
                             id="login_password"
                             name="password"
                             value={password}
-                            onChange={(
-                                event: React.ChangeEvent<HTMLInputElement>
-                            ) => setPassword(event.target.value)}
+                            onChange={({ target }) => setPassword(target.value)}
                             label="Password"
                             fullWidth
                             margin="normal"
@@ -221,28 +218,121 @@ const LoginForm = React.forwardRef(
 
 const SignUpForm = React.forwardRef(
     ({ goToLogin, animationState, animationComplete }: any, ref) => {
-        const [username, setUsername] = React.useState("");
-        const [email, setEmail] = React.useState("");
-        const [password, setPassword] = React.useState("");
+        const [username, setUsername] = React.useState("Thunderspike");
+        const [uNameInvalid, setUnameInvalid] = React.useState(false);
+        const [email, setEmail] = React.useState("pol.ajazi@yahoo.com");
+        const [emailInvalid, setEmailInvalid] = React.useState(false);
+        const [password, setPassword] = React.useState("123");
+        const [passInvalid, setPassInvalid] = React.useState(false);
 
         const [submitDisable, setSubmitDisable] = React.useState(true);
         const [isLoading, setIsLoading] = React.useState(false);
 
-        const usernameRef = React.useRef(null);
-        const emailRef = React.useRef(null);
-        const passwordRef = React.useRef(null);
-        const focusUsername = () => usernameRef.current.focus();
-        const focusEmail = () => emailRef.current.focus();
-        const focusPassword = () => passwordRef.current.focus();
+        const [suResponse, setSuResponse] = React.useState(null);
+
+        const fieldRefs = React.useRef({
+            username: null,
+            email: null,
+            password: null,
+        });
 
         const handleSignUp = async (event) => {
             event.preventDefault();
 
-            const form = new FormData(event.currentTarget),
-                data = {
-                    login_id: form.get("login_id"),
-                    password: form.get("password"),
-                };
+            const data = { username, email, password },
+                method = `signUp`;
+
+            try {
+                const results = await p_postData({
+                    url: `${middleware}/${authEndpoint}/${method}`,
+                    data,
+                });
+                // keep it going
+                console.log({ results });
+            } catch (response) {
+                // if response.message - something different
+                setSuResponse({ error: response?.messages });
+                const errors = response?.messages;
+                if (errors?.length) {
+                    const invalidUnameO = errors.find(
+                            ({ key }) => key == `username`
+                        ),
+                        invalidEmailO = errors.find(
+                            ({ key }) => key == `email`
+                        ),
+                        invalidPassO = errors.find(
+                            ({ key }) => key == `password`
+                        );
+
+                    if (invalidUnameO) fieldRefs.current.username.focus();
+                    else if (!invalidUnameO && invalidEmailO)
+                        fieldRefs.current.email.focus();
+                    else if (!invalidUnameO && !invalidEmailO && invalidPassO)
+                        fieldRefs.current.password.focus();
+                }
+            }
+
+            setIsLoading(false);
+        };
+
+        React.useEffect(
+            () => {
+                let signupDisabled =
+                    !email ||
+                    !password ||
+                    (suResponse?.error &&
+                        (uNameInvalid || emailInvalid || passInvalid));
+                setSubmitDisable(signupDisabled);
+
+                const invalidUnameO = suResponse?.error?.find(
+                        ({ key }) => key == `username`
+                    ),
+                    invalidEmailO = suResponse?.error.find(
+                        ({ key }) => key == `email`
+                    ),
+                    invalidPassO = suResponse?.error.find(
+                        ({ key }) => key == `password`
+                    );
+
+                if (invalidUnameO != null)
+                    setUnameInvalid(username == invalidUnameO.value);
+                if (invalidEmailO != null)
+                    setEmailInvalid(email == invalidEmailO.value);
+                if (invalidPassO != null)
+                    setPassInvalid(
+                        password &&
+                            (!onlyCharsAndNums(password) ||
+                                password.length < 4 ||
+                                password.length > 30)
+                    );
+            },
+            // prettier-ignore
+            [ username, email, password, uNameInvalid, emailInvalid, passInvalid, suResponse ]
+        );
+
+        const getErrProps = ({ isInvalid, key }) => {
+            // prettier-ignore
+            const errProps: {
+                color:  'primary' | 'secondary' | 'error' | 'info' | 'success' | 'warning',
+                helperText: React.ReactNode
+                FormHelperTextProps: Partial<FormHelperTextProps>
+            } = {
+                color: "info",
+                helperText: "",
+                FormHelperTextProps: {
+                    sx: { color: deepOrange[500] },
+                    variant: "outlined",
+                }
+            };
+
+            if (isInvalid) {
+                errProps[`color`] = `warning`;
+                errProps.helperText =
+                    suResponse?.error?.find((errO) => errO.key == key)
+                        ?.message ?? "";
+            }
+
+            return errProps;
         };
 
         return (
@@ -261,7 +351,7 @@ const SignUpForm = React.forwardRef(
                     <Slide
                         direction="right"
                         in={animationState}
-                        onExited={animationComplete}
+                        onExited={animationComplete} // ignore error, Slide does have onExited
                         timeout={longAnimationDuration}
                     >
                         <Box>
@@ -269,43 +359,63 @@ const SignUpForm = React.forwardRef(
                                 id="signup_username"
                                 name="username"
                                 value={username}
-                                // prettier-ignore
-                                onChange={({ target }) => setUsername(target.value)}
-                                ref={usernameRef}
-                                inputRef={usernameRef}
+                                onChange={({ target }) =>
+                                    setUsername(target.value)
+                                }
+                                inputRef={(el) =>
+                                    (fieldRefs.current.username = el)
+                                }
                                 label="Username"
                                 autoFocus
-                                fullWidth
-                                margin="normal"
                                 autoComplete="username"
+                                margin="normal"
+                                fullWidth
+                                {...getErrProps({
+                                    isInvalid: uNameInvalid,
+                                    key: `username`,
+                                })}
                             />
                             <TextField
                                 id="signup_email"
                                 name="email"
                                 value={email}
-                                // prettier-ignore
-                                onChange={({ target }) => setEmail(target.value)}
-                                ref={emailRef}
+                                onChange={({ target }) =>
+                                    setEmail(target.value)
+                                }
+                                inputRef={(el) =>
+                                    (fieldRefs.current.email = el)
+                                }
                                 inputMode="email"
                                 label="Email Address"
                                 required
                                 autoComplete="email"
-                                fullWidth
                                 margin="normal"
+                                fullWidth
+                                {...getErrProps({
+                                    isInvalid: emailInvalid,
+                                    key: `email`,
+                                })}
                             />
                             <TextField
                                 id="signup_password"
                                 name="password"
                                 type="password"
                                 value={password}
-                                // prettier-ignore
-                                onChange={({ target }) => setPassword(target.value)}
-                                ref={passwordRef}
+                                onChange={({ target }) =>
+                                    setPassword(target.value)
+                                }
+                                inputRef={(el) =>
+                                    (fieldRefs.current.password = el)
+                                }
                                 label="Password"
                                 required
                                 autoComplete="password"
                                 fullWidth
                                 margin="normal"
+                                {...getErrProps({
+                                    isInvalid: passInvalid,
+                                    key: `password`,
+                                })}
                             />
                         </Box>
                     </Slide>
